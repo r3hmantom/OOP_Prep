@@ -52,6 +52,52 @@ int main() {
     //cout << *ptr1 << endl;
     //cout << "Find Memory Leak" << endl;
 
+    // ----------------------------------------------------
+
+    //TASK 4:
+    //Introduce 2 variables i(int), j(float) and initialize to 5, 1.5 respectively.
+    //    Introduce 2 variables xPtr(int*), yPtr(float*) and assign address of i, j respectively.
+    //    Print values of i, j and addresses in xPtr, yPtr.
+    //    xPtr++;  yPtr++;
+    //Print addresses in xPtr, yPtr.
+    //    xPtr--; yPtr--;
+    //Print addresses in xPtr, yPtr.
+    //    xPtr = xPtr + 3; yPtr = yPtr + 4;
+    //Print addresses in xPtr, yPtr.
+
+    //int i = 5;
+    //float j = 1.5;
+    //
+    //int* xPtr = &i;
+    //float* yPtr = &j;
+
+    //cout << "i : " << i << endl;
+    //cout << "j : " << j << endl;
+    //cout << "xPtr : " << xPtr << endl;
+    //cout << "yPtr : " << yPtr << endl << endl;
+
+    //xPtr++;
+    //yPtr++;
+    //cout << "After   xPtr++   yPtr++ " << endl;
+    //cout << "xPtr : " << xPtr << endl;
+    //cout << "yPtr : " << yPtr << endl << endl;
+
+
+    //xPtr--;
+    //yPtr--;
+    //cout << "After   xPtr--   yPtr-- " << endl;
+    //cout << "xPtr : " << xPtr << endl;
+    //cout << "yPtr : " << yPtr << endl << endl;
+
+
+    //xPtr = xPtr + 3;
+    //yPtr = yPtr + 4;
+    //cout << "After   xPtr+=3   yPtr+=4 " << endl;
+    //cout << "xPtr : " << xPtr << endl;
+    //cout << "yPtr : " << yPtr << endl << endl;
+
+
+
 
     return 0;
 }
