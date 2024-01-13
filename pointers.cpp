@@ -8,6 +8,37 @@ void swap( int* ptra, int* ptrb ) {
     return;
 }
 
+void Print(float *ptr1, float *ptr2) {
+    cout << "Length: " << *ptr1 << endl;
+    cout << "Width: " << *ptr2 << endl;
+}
+
+float Area(float length, float width) {
+    return length* width;
+}
+
+void deallocate(float* ptr1, float* ptr2) {
+    delete ptr1;
+    delete ptr2;
+}
+
+
+void input(float* length, float* width) {
+    cout << "Enter length: ";
+    cin >> *length;
+
+    cout << "Enter width: ";
+    cin >> *width;
+}
+
+void allocate(float *ptr1, float* ptr2) {
+    float length = 0, width = 0;
+
+    ptr1 = &length;
+    ptr2 = &width;
+
+}
+
 int main() {
     
     //TASK 1:
@@ -96,6 +127,40 @@ int main() {
     //cout << "xPtr : " << xPtr << endl;
     //cout << "yPtr : " << yPtr << endl << endl;
 
+
+    // ---------------------------------------------------
+
+    // TASK 5
+    // 
+    //What is wrong with the following code ?
+    // 
+    //double* firstPtr = new double; 
+    //double* nextPtr = new double; 
+    // 
+    //*firstPtr = 62;               
+    //nextPtr = firstPtr;      // both pointers now point to same location
+    // 
+    // 
+    //delete firstPtr;         
+    //delete nextPtr;          // this location was already deallocated, so undefined behaviour
+    // 
+    // 
+    //firstPtr = new double;    
+    //*firstPtr = 28; 
+    // 
+    // 
+    //cout << *firstPtr << " " << *nextPtr << endl;   // nextPtr was deallocated, so undefined behaviour
+
+
+    // TASK 6
+        float* ptr1 = new float;
+        float* ptr2 = new float;
+
+        allocate(ptr1, ptr2);
+        input(ptr1, ptr2);
+        Print(ptr1, ptr2);
+       cout <<  Area(*ptr1, *ptr2);
+        deallocate(ptr1, ptr2);
 
 
 
