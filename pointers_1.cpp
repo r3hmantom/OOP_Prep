@@ -1,43 +1,50 @@
 #include <iostream>
 using namespace std;
 
-void swap( int* ptra, int* ptrb ) {
-    int temp = *ptra;
-    *ptra = *ptrb;
-    *ptrb = temp;
-    return;
-}
+// --------------------OOP LAB MANUAL 1, FALL 2021 FAST UNI LAHORE --------------------
+// wondar.site
 
-void Print(float *ptr1, float *ptr2) {
-    cout << "Length: " << *ptr1 << endl;
-    cout << "Width: " << *ptr2 << endl;
-}
-
-float Area(float length, float width) {
-    return length* width;
-}
-
-void deallocate(float* ptr1, float* ptr2) {
-    delete ptr1;
-    delete ptr2;
-}
-
-
-void input(float* length, float* width) {
-    cout << "Enter length: ";
-    cin >> *length;
-
-    cout << "Enter width: ";
-    cin >> *width;
-}
-
-void allocate(float *ptr1, float* ptr2) {
-    float length = 0, width = 0;
-
-    ptr1 = &length;
-    ptr2 = &width;
-
-}
+// Task 6 functions
+// 
+//void Print(float *ptr1, float *ptr2) {
+//    cout << "Length: " << *ptr1 << endl;
+//    cout << "Width: " << *ptr2 << endl;
+//}
+//
+//float Area(float length, float width) {
+//    return length* width;
+//}
+//
+//void deallocate(float* ptr1, float* ptr2) {
+//    delete ptr1;
+//    delete ptr2;
+//}
+//
+//
+//void input(float* length, float* width) {
+//    cout << "Enter length: ";
+//    cin >> *length;
+//
+//    cout << "Enter width: ";
+//    cin >> *width;
+//}
+//
+//void allocate(float *ptr1, float* ptr2) {
+//    float length = 0, width = 0;
+//
+//    ptr1 = &length;
+//    ptr2 = &width;
+//
+//}
+// ----------------------------------
+// Task 1 fucnctions
+// 
+//void swap(int* ptra, int* ptrb) {
+//    int temp = *ptra;
+//    *ptra = *ptrb;
+//    *ptrb = temp;
+//    return;
+//}
 
 int main() {
     
@@ -153,14 +160,14 @@ int main() {
 
 
     // TASK 6
-        float* ptr1 = new float;
-        float* ptr2 = new float;
+       // float* ptr1 = new float;
+       // float* ptr2 = new float;
 
-        allocate(ptr1, ptr2);
-        input(ptr1, ptr2);
-        Print(ptr1, ptr2);
-       cout <<  Area(*ptr1, *ptr2);
-        deallocate(ptr1, ptr2);
+       // allocate(ptr1, ptr2);
+       // input(ptr1, ptr2);
+       // Print(ptr1, ptr2);
+       //cout <<  Area(*ptr1, *ptr2);
+       // deallocate(ptr1, ptr2);
 
 
 
