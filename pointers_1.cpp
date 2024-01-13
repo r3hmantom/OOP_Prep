@@ -18,6 +18,11 @@ using namespace std;
 //void deallocate(float* ptr1, float* ptr2) {
 //    delete ptr1;
 //    delete ptr2;
+//      
+//    ptr1 = nullptr;
+//    ptr2 = nullptr;     
+// 
+// 
 //}
 //
 //
@@ -30,14 +35,13 @@ using namespace std;
 //}
 //
 //void allocate(float *ptr1, float* ptr2) {
-//    float length = 0, width = 0;
 //
-//    ptr1 = &length;
-//    ptr2 = &width;
+//    ptr1 = new float;
+//    ptr2 = new float;
 //
 //}
 // ----------------------------------
-// Task 1 fucnctions
+// Task 1 functions
 // 
 //void swap(int* ptra, int* ptrb) {
 //    int temp = *ptra;
