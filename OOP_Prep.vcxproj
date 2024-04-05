@@ -131,6 +131,7 @@
     <ClCompile Include="constructors.cpp" />
     <ClCompile Include="pointers_1.cpp" />
     <ClCompile Include="doublePointers.cpp" />
+    <ClCompile Include="static_class_functions.cpp" />
     <ClCompile Include="static_class_members.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
