@@ -27,5 +27,8 @@
     <ClCompile Include="constructors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="static_class_members.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
