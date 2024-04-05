@@ -19,16 +19,16 @@ public:
 
 	// if this was not here, mtlb deafult na hota, to B ke andar A ko initialze krna prna tha, 
 	// or uska sirf ek tareqa tha, using member initialzier list, nhi to phr koi constant value hoti, user se value na lete hm phr
-	A()
-	{
-		i = 0;
-	}
+	//A()
+	//{
+	//	i = 0;
+	//}
 };
 
 class B {
 	A a;
 public:
-	B(int num)
+	B(int num): a(num)
 	{
 		cout << "B's constructor called " << endl;
 	}
