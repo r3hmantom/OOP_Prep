@@ -1,3 +1,78 @@
+// MEMBER INITIALIZER LIST FOR NESTED CLASS EXAMPLE
+// We use member initializer list to initialize class member which is a class object
+
+
+
+
+#include <iostream>
+using namespace std;
+
+
+class A {
+	int i;
+public:
+	A(int num)
+	{
+		i = num;
+		cout << "A's constructor called, i = " << i << endl;
+	}
+
+	// if this was not here, mtlb deafult na hota, to B ke andar A ko initialze krna prna tha, 
+	// or uska sirf ek tareqa tha, using member initialzier list, nhi to phr koi constant value hoti, user se value na lete hm phr
+	A()
+	{
+		i = 0;
+	}
+};
+
+class B {
+	A a;
+public:
+	B(int num)
+	{
+		cout << "B's constructor called " << endl;
+	}
+};
+
+
+
+int main() {
+	B obj(10);
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //#include <iostream>
 //using namespace std;
 //
