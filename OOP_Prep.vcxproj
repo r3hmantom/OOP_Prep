@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />
+    <ClCompile Include="member_initializer_list.cpp" />
     <ClCompile Include="pointers_1.cpp" />
     <ClCompile Include="doublePointers.cpp" />
     <ClCompile Include="static_class_functions.cpp" />
