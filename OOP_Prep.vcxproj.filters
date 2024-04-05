@@ -18,5 +18,14 @@
     <ClCompile Include="pointers_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="doublePointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="class_references.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
