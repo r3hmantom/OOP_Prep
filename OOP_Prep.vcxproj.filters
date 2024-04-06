@@ -36,5 +36,8 @@
     <ClCompile Include="member_initializer_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="cascading_calls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
