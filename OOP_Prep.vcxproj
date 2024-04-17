@@ -130,6 +130,7 @@
     <ClCompile Include="cascading_calls.cpp" />
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />
+    <ClCompile Include="DryRuns.cpp" />
     <ClCompile Include="member_initializer_list.cpp" />
     <ClCompile Include="finals_1.cpp" />
     <ClCompile Include="pointers_1.cpp" />
