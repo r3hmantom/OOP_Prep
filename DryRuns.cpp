@@ -18,19 +18,45 @@
 //    return 0;
 //}
 
-#include<iostream>
+//#include<iostream>
+//using namespace std;
+//main()
+//{
+//    int* ip = new int;
+//    short* sp;
+//    char* cp;
+//    *ip = 16706; //Hex 4142
+//    *ip = 65;
+//    //cp=ip;
+//    cp = (char*)ip;
+//    cout << *cp << endl;
+//    cout << *(cp + 1) << endl;
+//    sp = (short*)ip;
+//    cout << *sp;
+//}
+
+
+#include <iostream>
 using namespace std;
-main()
+
+int print_row(int ct, int num)
 {
-    int* ip = new int;
-    short* sp;
-    char* cp;
-    *ip = 16706; //Hex 4142
-    *ip = 65;
-    //cp=ip;
-    cp = (char*)ip;
-    cout << *cp << endl;
-    cout << *(cp + 1) << endl;
-    sp = (short*)ip;
-    cout << *sp;
+	if (num == 0)
+		return ct;
+	cout << ct << "\t";
+	print_row(ct + 1, num - 1);
+}
+void pattern(int n, int count, int num)
+{
+	if (n == 0)
+		return;
+	count = print_row(count, num);
+	cout << endl;
+	pattern(n - 1, count, num + 1);
+}
+int main()
+{
+	int n = 5;
+	pattern(n, 1, 1);
+	return 0;
 }
