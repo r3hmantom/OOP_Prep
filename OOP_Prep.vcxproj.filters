@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Dry_Run_Questions">
+      <UniqueIdentifier>{c2db3de1-9230-4dd7-8c6b-f7726d76bd9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointers_1.cpp">
@@ -56,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="templates.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="13_question.cpp">
+      <Filter>Source Files\Dry_Run_Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="14_question.cpp">
+      <Filter>Source Files\Dry_Run_Questions</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

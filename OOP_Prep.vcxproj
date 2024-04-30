@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="14_question.cpp" />
     <ClCompile Include="cascading_calls.cpp" />
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />
@@ -138,6 +139,7 @@
     <ClCompile Include="finals_1.cpp" />
     <ClCompile Include="pointers_1.cpp" />
     <ClCompile Include="doublePointers.cpp" />
+    <ClCompile Include="13_question.cpp" />
     <ClCompile Include="static_class_functions.cpp" />
     <ClCompile Include="static_class_members.cpp" />
     <ClCompile Include="templates.cpp" />
