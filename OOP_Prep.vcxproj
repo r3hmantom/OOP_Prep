@@ -128,6 +128,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="14_question.cpp" />
+    <ClCompile Include="15_question.cpp" />
+    <ClCompile Include="16_question.cpp" />
     <ClCompile Include="cascading_calls.cpp" />
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />
