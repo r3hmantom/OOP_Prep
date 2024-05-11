@@ -127,9 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1.cpp" />
     <ClCompile Include="14_question.cpp" />
     <ClCompile Include="15_question.cpp" />
     <ClCompile Include="16_question.cpp" />
+    <ClCompile Include="1.2.pointershomework.cpp" />
+    <ClCompile Include="2.1.cpp" />
+    <ClCompile Include="2.2.cpp" />
     <ClCompile Include="cascading_calls.cpp" />
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />

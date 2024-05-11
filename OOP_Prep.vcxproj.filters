@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Dry_Run_Questions">
       <UniqueIdentifier>{c2db3de1-9230-4dd7-8c6b-f7726d76bd9f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MamFolder">
+      <UniqueIdentifier>{ce0552aa-d661-4bfb-8b0b-3fdef71e0f0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointers_1.cpp">
@@ -71,6 +74,18 @@
     </ClCompile>
     <ClCompile Include="16_question.cpp">
       <Filter>Source Files\Dry_Run_Questions</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="1.2.pointershomework.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="2.1.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.cpp">
+      <Filter>Source Files\MamFolder</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
