@@ -19,6 +19,9 @@
     <Filter Include="Source Files\MamFolder">
       <UniqueIdentifier>{ce0552aa-d661-4bfb-8b0b-3fdef71e0f0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Past Papers">
+      <UniqueIdentifier>{67bb62f5-6a60-4c10-9134-225f8bf12328}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pointers_1.cpp">
@@ -89,6 +92,24 @@
     </ClCompile>
     <ClCompile Include="2.3.cpp">
       <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="3.2.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="2.4_assignment_1.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="3.3.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="2002 - Final - Spring - OOP.cpp">
+      <Filter>Source Files\Past Papers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
