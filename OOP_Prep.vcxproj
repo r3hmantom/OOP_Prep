@@ -141,6 +141,8 @@
     <ClCompile Include="3.2.cpp" />
     <ClCompile Include="3.3.cpp" />
     <ClCompile Include="4.1.cpp" />
+    <ClCompile Include="4.2.cpp" />
+    <ClCompile Include="4.3.cpp" />
     <ClCompile Include="cascading_calls.cpp" />
     <ClCompile Include="class_references.cpp" />
     <ClCompile Include="constructors.cpp" />

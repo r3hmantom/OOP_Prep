@@ -117,5 +117,11 @@
     <ClCompile Include="functions_passing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="4.2.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="4.3.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
