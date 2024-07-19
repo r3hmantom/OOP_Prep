@@ -123,5 +123,14 @@
     <ClCompile Include="4.3.cpp">
       <Filter>Source Files\MamFolder</Filter>
     </ClCompile>
+    <ClCompile Include="5.1.cpp">
+      <Filter>Source Files\MamFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="5.2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2024.cpp">
+      <Filter>Source Files\Past Papers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
